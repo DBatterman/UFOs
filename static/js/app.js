@@ -28,7 +28,7 @@ var filters = {};
 // 3. Use this function to update the filters. 
 function updateFilters() {
   //First, clear out any existing data
-  // tbody.html("");
+  tbody.html("");
   // 4a. Save the element that was changed as a variable.
   let elm = d3.select(this);
   // 4b. Save the value that was changed as a variable.
